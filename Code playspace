@@ -1,0 +1,4 @@
+git --version
+git config --Catelyn.Close "w3schools-test"
+mkdir myproject
+cd myproject
