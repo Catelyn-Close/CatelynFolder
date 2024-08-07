@@ -38,3 +38,11 @@ my_list = [int(n) for n in input("Input a list of numbers: ").split()]
 for x in my_list:
     if x % 2 == 0:
         print(x)
+______________________________________________________________
+# Take input from the user and convert it to a list of strings
+countries_to_visit = input("Input a list of countries you would like to visit, separated by spaces: ").split()
+
+# Iterate through the list and print countries containing the letter "p" (case-insensitive)
+for country in countries_to_visit:
+    if 'p' in country.lower():
+        print(country)
