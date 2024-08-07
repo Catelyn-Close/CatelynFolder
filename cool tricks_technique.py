@@ -46,3 +46,15 @@ countries_to_visit = input("Input a list of countries you would like to visit, s
 for country in countries_to_visit:
     if 'p' in country.lower():
         print(country)
+__________________________________________________________________
+my_list = [int(n) for n in input("Enter integers separated by spaces: ").split()]
+
+# Initialize the product variable to 1
+product = 1
+
+# Multiply all integers in the list
+for num in my_list:
+    product *= num
+
+# Print the product
+print(product)
