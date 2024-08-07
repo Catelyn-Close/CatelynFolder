@@ -30,3 +30,11 @@ Wordbank = [noun1, pnoun1, noun2, place, adjective]
 
 formatted_madlib = madlib.format(*Wordbank)
 print(formatted_madlib)
+________________________________________________________
+# Take input from the user and convert it to a list of integers
+my_list = [int(n) for n in input("Input a list of numbers: ").split()]
+
+# Iterate through the list and print the even numbers
+for x in my_list:
+    if x % 2 == 0:
+        print(x)
