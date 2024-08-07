@@ -132,3 +132,20 @@ list = ["tree ", "trees ", "leaves ", "leaf ", "cone ", "cat ", "dog ", "table "
 for x in list:
     print("While I was taking my " + x + "for a walk, another giant " + x + "came out of nowhere and chased me all the way home!")
 
+__________________________________________________________________________________________________
+#range and stuff
+lasers = [3, 10, 4, 15, 11]
+
+print(lasers[2] * 10)
+print(round(3.14159265, 3))
+for x in range(0,10):
+    print(x)
+
+
+
+
+for x in range(0,10)[0:10:2]:
+    print(x)
+
+for x in range(0, 10, 2):
+    print(x)
