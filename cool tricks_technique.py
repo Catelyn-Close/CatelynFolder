@@ -69,3 +69,10 @@ treats.append(extra2)
 
 print(treats)
 _______________________________________________________________
+games = ["swimming " + "triathalon " + "weightlifting "]
+newgames = ["running " + "horse riding "]
+
+games.extend(newgames)
+
+print(games)
+___________________________________________________________________
