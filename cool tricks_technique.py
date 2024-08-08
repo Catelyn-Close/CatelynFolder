@@ -76,3 +76,11 @@ games.extend(newgames)
 
 print(games)
 ___________________________________________________________________
+harvest = ["pumpkins", "apples", "corn", "squash", "carrots"]
+
+treefruit = harvest.pop(1)
+
+harvest.remove("squash")
+
+print(harvest)
+____________________________________________________________________
