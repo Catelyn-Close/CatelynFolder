@@ -58,3 +58,14 @@ for num in my_list:
 
 # Print the product
 print(product)
+___________________________________________________________________
+extra = input("input 1 treats. ")
+extra2 = input("input 1 treats. ")
+
+treats = ["popcorn", "popsicles", "soda", "chips", "cookies"]
+
+treats.append(extra)
+treats.append(extra2)
+
+print(treats)
+_______________________________________________________________
