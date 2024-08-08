@@ -84,3 +84,10 @@ harvest.remove("squash")
 
 print(harvest)
 ____________________________________________________________________
+a = input("input a list of names ").split()
+
+
+statement = " got the bronze medal"
+
+print(a[2] + statement)
+____________________________________________________________________
