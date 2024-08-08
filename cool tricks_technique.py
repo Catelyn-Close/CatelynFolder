@@ -91,3 +91,7 @@ statement = " got the bronze medal"
 
 print(a[2] + statement)
 ____________________________________________________________________
+numbers = [int(n) for n in input().split()]
+biggest = max(numbers)
+print(biggest)
+____________________________________________________________________
