@@ -108,3 +108,15 @@ print(Total)
 #True if a is not equal to b, and False if a is equal to b.
 #if statement is false then the total is added
 _____________________________________________________________________
+maximum = []
+
+while True:
+    n = int(input("Input a number: "))
+    maximum.append(n)
+    if n == 0:
+        break
+    
+        
+        
+print(max(maximum))
+__________________________________________________________________
