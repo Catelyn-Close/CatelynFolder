@@ -95,3 +95,16 @@ numbers = [int(n) for n in input().split()]
 biggest = max(numbers)
 print(biggest)
 ____________________________________________________________________
+
+Total = 0
+n = None
+while n != 0:
+    n = int(input("Input a number: "))
+    if n != 0:
+        Total += n
+print(Total)
+
+#if n != 0 :
+#True if a is not equal to b, and False if a is equal to b.
+#if statement is false then the total is added
+_____________________________________________________________________
