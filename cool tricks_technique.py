@@ -175,3 +175,22 @@ for value in group.values():
 
 print(total)
 _____________________________________________________________________
+one = int(input("input # "))
+two = int(input("input # "))
+
+group = { 
+    3 : 10, 
+    5 : 3, 
+    10 : 6, 
+    4 : 30, 
+    one : two }
+
+
+ 
+total = 0
+for (x,y) in group.items():
+    ftot = x * y
+    total += ftot
+
+print(total)
+______________________________________________________________________
