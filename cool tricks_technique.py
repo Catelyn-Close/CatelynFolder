@@ -141,3 +141,13 @@ if strawb > 3:
 
 print(shopping)
 ___________________________________________________________________
+measurement = {
+    'length': 10,
+    'width': 5,
+    'depth': 3
+}
+
+# Loop through the dictionary values and print each one
+for value in measurement.values():
+    print(value)
+    ______________________________________________________________
