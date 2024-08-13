@@ -194,3 +194,19 @@ for (x,y) in group.items():
 
 print(total)
 ______________________________________________________________________
+
+        ride = {
+    "cal" : 100,
+    "cat" : 200,
+    "gran" : 3,
+    "mo" : 4000,
+    "da" : 50
+}
+
+for (y) in ride.values():
+    if y > 100 or y == 100:
+        print("This person is tall enough to ride.")
+    elif y < 100:
+        print("This person is too short to ride.")
+
+______________________________________________________________________
