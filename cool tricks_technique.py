@@ -120,3 +120,24 @@ while True:
         
 print(max(maximum))
 __________________________________________________________________
+shopping = {}
+
+apple = int(input("How many apples? "))
+banan = int(input("How many bananas? "))
+strawb = int(input("How many strawberries? "))
+
+if apple > 5:
+    shopping["apples"] = apple
+
+if banan > 7:
+    shopping["bananas"] = banan
+
+if strawb > 3:
+    shopping["strawberries"] = strawb
+
+#apples : 5,
+#bananas : 7,
+#strawberries : 3
+
+print(shopping)
+___________________________________________________________________
