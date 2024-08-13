@@ -210,3 +210,8 @@ for (y) in ride.values():
         print("This person is too short to ride.")
 
 ______________________________________________________________________
+friends = ("string11", "string2", "string3", "string4", "string5", "string6", "string7", "string8")
+print(friends[-3])
+print(friends[5])
+print(friends[0][:4])
+__________________________________________________________________________________________________
