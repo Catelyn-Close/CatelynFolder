@@ -150,4 +150,28 @@ measurement = {
 # Loop through the dictionary values and print each one
 for value in measurement.values():
     print(value)
-    ______________________________________________________________
+______________________________________________________________
+
+ja = int(input("input Jane "))
+aman = int(input("input Amanda "))
+
+group = { 
+    "Fred" : 12, 
+    "Jackson" : 15, 
+    "Sophie" : 20, 
+    "Amanda" : aman, 
+    "Jane" : ja 
+}
+
+
+
+total = int(0)
+
+for value in group.values():
+    total += value
+
+
+
+
+print(total)
+_____________________________________________________________________
