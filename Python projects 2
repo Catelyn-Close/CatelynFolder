@@ -1,0 +1,23 @@
+#A large pizza will feed 7 people
+#A medium pizza will feed 3 people
+#A small pizza will feed 1 person.
+
+LP = 0
+MP = 0
+SP = 0
+
+order = int(input("how many people are in your group? "))
+
+while order != 0:
+    if order > 7:
+        order -= 7
+        LP += 1
+    elif order < 7 and order > 3:
+        order -= 3 
+        MP += 1
+    else order < 3:
+        order -= 1 
+        SP += 1
+
+print("You will need " + str(LP) + " large pizzas, " + str(MP) + " medium pizzas, and " + str(SP) + " small pizzas.")
+_______________________________________________________________________________________________________________________
