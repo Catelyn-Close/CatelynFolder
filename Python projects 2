@@ -21,3 +21,19 @@ while order != 0:
 
 print("You will need " + str(LP) + " large pizzas, " + str(MP) + " medium pizzas, and " + str(SP) + " small pizzas.")
 _______________________________________________________________________________________________________________________
+teller = int(input("Input a year. "))
+leap = teller
+leapstr = leap
+
+if (teller % 4 == 0 and teller % 100 != 0) or (teller % 400 == 0):
+    leap == True
+else:
+    leap == False
+
+
+
+if leap:
+    print(str(teller) + " is a leap year.")
+else:
+    print(str(teller) + " is not a leap year")
+________________________________________________________________________________________________________________________
