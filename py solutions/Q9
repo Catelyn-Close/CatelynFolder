@@ -1,0 +1,4 @@
+print("what is your name?")
+#name = input()
+name = input()
+print(name)

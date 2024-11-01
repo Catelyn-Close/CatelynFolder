@@ -1,0 +1,21 @@
+# Code segment 1
+x1 = "20"
+y1 = 3
+a = x1 * y1
+
+# Code segment 2
+x2 = 6
+y2 = 4
+b = x2 / y2
+
+# Code segment 3
+x3 = 2.5
+y3 = 1
+c = x3 / y3
+
+#After executing code segment 1, the data type of variable a is str.
+#No
+#After executing code segment 2, the data type of varialbe b is float.
+#Yes
+#After executing code segment 3, the data type of variable c is int.
+#No

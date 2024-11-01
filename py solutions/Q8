@@ -1,0 +1,23 @@
+sum = count = done = 0
+
+average = 0.0
+
+while (done != -1)
+
+        rating = input("Enter next rating (1-5) or -1 for done ")
+
+        if rating == -1:
+
+                break
+
+          sum += rating
+
+        count += 1
+
+average = float(Sum/count)
+print("The average star rating for the NetVerZleep coffee is: " + format(average, ".2f"))
+
+
+
+
+

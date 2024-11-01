@@ -1,0 +1,18 @@
+
+rooms = {1: 'Foyer', 2: 'Conference Room'}
+room = input('Enter the room number: ')
+
+if not room in rooms: 
+    print('Room does not exist.')
+else:
+    print("The room name is " + rooms[room])
+
+#Which two data types are stored in the rooms list at line 01?
+#int:str
+#What is the data type of room at line 02?
+#int
+#Why does line 03 fail to find the rooms?
+#incorrect use of NOT
+
+
+

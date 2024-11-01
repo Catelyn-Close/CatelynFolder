@@ -1,0 +1,7 @@
+age = 2   #int
+minor = False #bool  
+name = "Contoso"   #str
+weight = 123.5   #float
+zip = "81000"   #int
+
+
